@@ -2,6 +2,8 @@ import json
 import uuid
 from datetime import datetime
 from .crud import CRUD
+from .storage_utils import read_storage, write_storage
+
 
 class User(CRUD):
 
